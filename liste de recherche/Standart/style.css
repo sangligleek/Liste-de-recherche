@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: clamp(5px 10 vh, 50px); /* Adapte dynamiquement en fonction de la taille de la fenêtre */
+}
+
+
+form {
+    max-width: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+h1 {
+    padding: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 1px;
+}
+.input-control {
+  display: flex;
+  width: 240px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.05);
+  position: relative;
+  margin-left: 40px;
+
+}
+
+.input-control img {
+  width: 20px;
+  top: 15px;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 15px;
+}
+
+input {
+   
+    width: 100%;
+    font-size: 16px;
+    padding: 15px;
+    border: 0;
+    text-indent: 25px;
+
+
+}
+
+ul{
+   
+    margin-top: 2px;
+
+
+}
+
+li{
+    width: 200px;
+    display: flex;
+    padding: 20px;
+    margin-top: 8px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.05);
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background-color: rgb(241, 241, 241);
+    
+
+}
+
+
+li a {
+    text-decoration: none;
+    color: black; 
+}

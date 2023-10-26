@@ -1,0 +1,15 @@
+Début :
+
+1. Récupérer la référence du champ de saisie et de la liste des utilisateurs en utilisant leur ID.
+
+2. Ajouter un événement de saisie au champ de saisie.
+
+3. À chaque saisie de l'utilisateur, récupérer la valeur du champ de saisie.
+
+4. Parcourir chaque élément de la liste des utilisateurs.
+
+5. Vérifier si la valeur saisie correspond à un nom d'utilisateur.
+
+6. Si c'est le cas, afficher l'élément correspondant de la liste, sinon le masquer.
+
+Fin.

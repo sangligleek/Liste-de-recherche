@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="filterable-list">
+    <title>Search List</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+ </head>
+ <body>
+    
+
+   <form>
+    <h1> Search for names</h1>
+    <div class="input-control">
+     <label for="search" >
+      <img src="search.svg" alt="search icon">
+     </label>
+     <input type="text" id="search" placeholder="Type names.." role="search"  aria-label="Search name">
+    </div>
+  
+    <filterable-list id="users" role="name"
+    item-0="Adèle"
+    item-1="Agnes"
+    item-2="Billy"
+    item-3="Bob"
+    item-4="Calvin"
+    item-5="Christina"
+    item-6="Cindy">
+    </filterable-list>
+  </form>
+   
+  <script src="script.js"></script>
+
+ </body>
+</html>
